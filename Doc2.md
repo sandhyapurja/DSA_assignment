@@ -1,5 +1,5 @@
-# ** DSA Assignment 2 – Question 2 **
-# ** Program: Infix to Postfix Conversion and Evaluation Using C Language **
+#  DSA Assignment 2 – Question 2 
+#  Program: Infix to Postfix Conversion and Evaluation Using C Language 
 ## 📌 About the Program
 
 This C program takes a mathematical expression in infix form, converts it into postfix notation, and then evaluates the resulting postfix expression to produce the final result. It supports:

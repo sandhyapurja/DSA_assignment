@@ -1,7 +1,7 @@
-# Largest heading **DSA Assignment 2 – Question 1**
-# Largest heading **Balanced Parentheses Program (Using Stack in C)**
+#  **DSA Assignment 2 – Question 1**
+# **Balanced Parentheses Program (Using Stack in C)**
 
-📌##Slightly smaller **About the Program**
+##📌 **About the Program**
 
 This program checks whether a given mathematical expression contains balanced parentheses or not. It supports multiple types of brackets:
 

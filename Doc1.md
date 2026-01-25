@@ -13,11 +13,11 @@ This program checks whether a given mathematical expression contains balanced pa
 
 The program uses a stack data structure to track opening brackets and ensure that each one matches a corresponding closing bracket.
 
-🔹## Slightly smaller Data Structures Used
+## Slightly smaller🔹 Data Structures Used
 Name	Purpose
 stack[]	Array to store opening brackets while scanning through the expression
 top	Integer that indicates the current top index of the stack
-🔹## Slightly smaller Functions Implemented
+## Slightly smaller🔹 Functions Implemented
 1️⃣ push(char ch)
 
 Adds an opening bracket onto the stack.

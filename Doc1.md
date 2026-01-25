@@ -1,7 +1,7 @@
 #  **DSA Assignment 2 – Question 1**
 # **Balanced Parentheses Program (Using Stack in C)**
 
-##📌 **About the Program**
+#📌 **About the Program**
 
 This program checks whether a given mathematical expression contains balanced parentheses or not. It supports multiple types of brackets:
 
@@ -13,11 +13,11 @@ This program checks whether a given mathematical expression contains balanced pa
 
 The program uses a stack data structure to track opening brackets and ensure that each one matches a corresponding closing bracket.
 
-🔹 Data Structures Used
+🔹# Data Structures Used
 Name	Purpose
 stack[]	Array to store opening brackets while scanning through the expression
 top	Integer that indicates the current top index of the stack
-🔹 Functions Implemented
+🔹# Functions Implemented
 1️⃣ push(char ch)
 
 Adds an opening bracket onto the stack.

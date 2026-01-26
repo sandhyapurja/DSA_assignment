@@ -20,3 +20,21 @@ The reversal uses three pointers:
 
 **next** - temporarily stores the next node
 
+## Functions
+
+**createNode()** - Creates a new node with given data
+**insertAtEnd()** - Inserts a node at the end of the list
+**reverseList()** - Reverses the linked list
+**printList()** - Displays the linked list
+**freeList()** - Frees all allocated memory
+
+## Example
+Linked List Reversal
+====================
+
+How many elements? 5
+Enter 5 elements: 1 2 3 4 5
+
+Original List: 1 -> 2 -> 3 -> 4 -> 5
+Reversed List: 5 -> 4 -> 3 -> 2 -> 1
+

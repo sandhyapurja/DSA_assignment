@@ -32,4 +32,21 @@ Can traverse backwards from any node
 Extra memory for prev pointer
 More pointer operations during insertion/deletion
 
+## How It Works
+### Insert After Operation
+
+Search for the node with the specified value
+Create a new node
+Update the new node's next and prev pointers
+Update the next node's prev pointer (if exists)
+Update the previous node's next pointer
+
+### Delete Operation
+
+Search for the node to delete
+Update the previous node's next pointer
+Update the next node's prev pointer
+Handle special case if deleting head
+Free the memory
+
 

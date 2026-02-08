@@ -11,17 +11,37 @@ Dijkstra's algorithm is a greedy algorithm used to find the shortest path betwee
 ## Features
 
 Weighted graph representation using adjacency matrix
+
 Finds shortest distance from source to all vertices
+
 Handles disconnected graphs (shows "No path")
+
 Works for both directed and undirected graphs
+
 Simple and efficient implementation
 
 ## Algorithm Overview
 ### How It Works:
 
 Initialize: Set distance to source as 0, all others as infinity
+
 Select: Pick unvisited vertex with minimum distance
+
 Update: For each neighbor, calculate new distance via current vertex
+
 Compare: If new distance is shorter, update it
+
 Mark: Mark current vertex as visited
-Repeat: Continue until all vertices are processe
+
+Repeat: Continue until all vertices are processed
+
+## Applications
+### Real-World Uses:
+
+GPS Navigation - Finding shortest routes
+Network Routing - Internet packet routing (OSPF protocol)
+Flight Planning - Cheapest flight paths
+Maps - Google Maps, road networks
+Robotics - Path planning for robots
+Game Development - AI pathfinding
+Telecommunication - Optimal cable laying

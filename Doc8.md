@@ -1,4 +1,4 @@
-# DSA Assignment 2 – Question 7
+# DSA Assignment 2 – Question 8
 ## Sorting Algorithms Comparison
 
 A C program that generates random integers and allows users to sort them using different algorithms while displaying performance statistics.
@@ -30,7 +30,9 @@ Finds the minimum element and places it at the beginning.
 
 ### How it works:
 Find minimum element in unsorted portion
+
 Swap with first unsorted element
+
 Move boundary of sorted portion
 
 ### Characteristics:
@@ -44,7 +46,9 @@ Builds sorted array one element at a time.
 
 ### How it works:
 Take one element from unsorted portion
+
 Insert it into correct position in sorted portion
+
 Shift elements as needed
 
 ### Characteristics:
@@ -58,7 +62,9 @@ Divide and conquer algorithm that splits array and merges sorted halves.
 
 ### How it works:
 Divide array into two halves
+
 Recursively sort each half
+
 Merge the sorted halves
 
 ### Characteristics:

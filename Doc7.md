@@ -39,9 +39,15 @@ Repeat: Continue until all vertices are processed
 ### Real-World Uses:
 
 GPS Navigation - Finding shortest routes
+
 Network Routing - Internet packet routing (OSPF protocol)
+
 Flight Planning - Cheapest flight paths
+
 Maps - Google Maps, road networks
+
 Robotics - Path planning for robots
+
 Game Development - AI pathfinding
+
 Telecommunication - Optimal cable laying

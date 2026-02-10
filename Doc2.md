@@ -5,7 +5,9 @@
 This C program takes a mathematical expression in infix form, converts it into postfix notation, and then evaluates the resulting postfix expression to produce the final result. It supports:
 
 ✔ Multi-digit operands
+
 ✔ Arithmetic operators (+, -, *, /, etc.)
+
 ✔ Parentheses for grouping (( and ))
 
 To handle both conversion and evaluation correctly, it uses the stack data structure — a core concept in data structures for managing LIFO (Last In First Out) operations.

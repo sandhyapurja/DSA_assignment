@@ -27,8 +27,11 @@ For undirected graphs: **graph[i][j] = graph[j][i]**
 ### BFS (Breadth-First Search)
 
 Uses a queue data structure
+
 Visits all neighbors at the current level before moving deeper
+
 Explores the graph level by level
+
 Use cases: Shortest path, level-order traversal
 
 ### Steps:
@@ -44,8 +47,11 @@ Repeat until queue is empty
 ### DFS (Depth-First Search)
 
 Uses recursion (implicit stack)
+
 Goes as deep as possible before backtracking
+
 Explores one branch completely before moving to next
+
 Use cases: Cycle detection, pathfinding, topological sorting
 
 ### Steps:
@@ -58,17 +64,25 @@ Backtrack when no unvisited neighbors exist
 ### BFS Applications:
 
 Finding shortest path in unweighted graphs
+
 Web crawlers
+
 Social networking (finding friends within distance)
+
 GPS navigation systems
+
 Broadcasting in networks
 
 ### DFS Applications:
 
 Detecting cycles in graphs
+
 Topological sorting
+
 Solving mazes
+
 Finding connected components
+
 Pathfinding in games
 
 

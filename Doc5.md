@@ -18,7 +18,9 @@ Choose starting vertex for traversal
 The program uses an adjacency matrix where:
 
 **graph[i][j] = 1** means there's an edge between vertex i and j
+
 **graph[i][j] = 0** means no edge exists
+
 For undirected graphs: **graph[i][j] = graph[j][i]**
 
 ## Algorithms
@@ -32,8 +34,11 @@ Use cases: Shortest path, level-order traversal
 ### Steps:
 
 Mark starting vertex as visited and enqueue it
+
 Dequeue a vertex and print it
+
 Enqueue all unvisited neighbors
+
 Repeat until queue is empty
 
 ### DFS (Depth-First Search)
